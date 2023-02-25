@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الملف الشخصي</title>
+    <!-- Css File Link -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    
+    <!-- Start Header -->
+
+    <header class="header">
+        <section class="navigation">
+            <a href="index.html" class="logo noHover"><i class="fa-brands fa-usps"></i>وظيفه دوت كوم</a>
+            <div id="menu-btn" class="fas fa-bars-staggered"></div>
+            <nav class="navbar">
+                <a href="index.html">الرئيسيه</a>
+                <a href="jobs.html">وظائف</a>
+                <a href="about.html">من نحن</a>
+                <a href="contact.html">تواصل معنا</a>
+                <a href="login.html">تسجيل الدخول</a>
+
+
+            </nav>
+
+            <span class="user-pic"><img src="images/profile-icon.jpg" onclick="menuToggle()" alt=""></span>
+
+                <div class="sub-menu-wrap" id="subMenu">
+                    <div class="sub-menu">
+                        <div class="user-info">
+                            <img src="images/profile-icon.jpg" alt="" />
+                            <h3>اسم المستخدم</h3>
+                        </div>
+                        <hr />
+
+                        <a href="employee_profile.html" class="sub-menu-link">
+                            <i class="fa-solid fa-address-card fa-icon"></i>
+                            <p>حسابي</p>
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </a>
+
+                        <a href="edit_emp_profile.html" class="sub-menu-link">
+                            <i class="fa-solid fa-gear fa-icon"></i>
+                            <p>تعديل الحساب</p>
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </a>
+
+                        <a href="#" class="sub-menu-link">
+                            <i class="fa-solid fa-door-open fa-icon"></i>
+                            <p>تسجيل الخروج</p>
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+            <a href="add_job.html" class="btn">اضافة وظيفه</a>
+        </section>
+    </header>
+
+
+    <!-- End Header -->
+
+
+
+    <!-- Start Employee Profile -->
+
+    <section class="employee-profile">
+
+        <h1 class="heading">الحساب الشخصي</h1>
+
+        <div class="details">
+            <a href="edit_emp_profile.html" class="btn">تعديل الملف الشخصي</a>
+
+            <div class="info">
+                <img src="images/profile-icon.jpg" alt="" />
+                <h3>اسم المستخدم</h3>
+                <span>العنوان :  <p>القاهره, مدينة نصر</p></span> <br>
+                <span>البريد الالكتروني :  <p>ah176@gmail.com</p></span> <br>
+                <span>رقم الموبايل :  <p>01000656521</p></span> <br>
+            </div>
+
+            <div class="row-desc">
+                <div class="skills">
+                    <h3>المهارات</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+    
+                <div class="experience">
+                    <h2>الخبرات</h2>
+                    <h3>شركة أب سايد</h3>
+                    <p><span>25فبراير 2020</span> - <span> 30اغسطس 2022</span></p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- End Employee Profile -->
+
+
+
+
+
+
+
+
+
+    <!-- Start Footer -->
+
+    <footer class="footer">
+        
+        <section class="grid">
+            <div class="box">
+                <h3>روابط سريعه</h3>
+                <a href="index.html"><i class="fas fa-angle-left"></i> الرئيسيه</a>
+                <a href="jobs.html"><i class="fas fa-angle-left"></i> وظائف</a>
+                <a href="about.html"><i class="fas fa-angle-left"></i> من نحن</a>
+                <a href="contact.html"><i class="fas fa-angle-left"></i> تواصل معنا</a>
+            </div>
+            <div class="box">
+                <h3>روابط أخري</h3>
+                <a href="login.html"><i class="fas fa-angle-left"></i> تسجيل الدخول</a>
+                <a href="comp_registration.html"><i class="fas fa-angle-left"></i> التسجيل كشركه</a>
+                <a href="emp_registration.html"><i class="fas fa-angle-left"></i> التسجيل كموظف</a>
+            </div>
+            <div class="box">
+                <h3>تابعنا علي</h3>
+                <a href="#"><i class="fab fa-facebook-f"></i> فيس بوك</a>
+                <a href="#"><i class="fab fa-twitter"></i> تويتر</a>
+                <a href="#"><i class="fab fa-instagram"></i> انستجرام</a>
+                <a href="#"><i class="fab fa-youtube"></i> يوتيوب</a>
+            </div>
+
+        </section>
+
+    </footer>
+
+    <!-- End Footer -->
+
+
+    <!-- Js File Link -->
+    <script src="js/index.js"></script>
+</body>
+</html>

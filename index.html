@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الصفحه الرئيسيه</title>
+    <!-- Css File Link -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    
+    <!-- Start Header -->
+
+    <header class="header">
+        <section class="navigation">
+            <a href="index.html" class="logo noHover"><i class="fa-brands fa-usps"></i>وظيفه دوت كوم</a>
+            <div id="menu-btn" class="fas fa-bars-staggered"></div>
+            <nav class="navbar">
+                <a href="index.html">الرئيسيه</a>
+                <a href="jobs.html">وظائف</a>
+                <a href="about.html">من نحن</a>
+                <a href="contact.html">تواصل معنا</a>
+                <a href="login.html">تسجيل الدخول</a>
+
+
+            </nav>
+
+            <span class="user-pic"><img src="images/profile-icon.jpg" onclick="menuToggle()" alt=""></span>
+
+                <div class="sub-menu-wrap" id="subMenu">
+                    <div class="sub-menu">
+                        <div class="user-info">
+                            <img src="images/profile-icon.jpg" alt="" />
+                            <h3>اسم المستخدم</h3>
+                        </div>
+                        <hr />
+
+                        <a href="employee_profile.html" class="sub-menu-link">
+                            <i class="fa-solid fa-address-card fa-icon"></i>
+                            <p>حسابي</p>
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </a>
+
+                        <a href="edit_emp_profile.html" class="sub-menu-link">
+                            <i class="fa-solid fa-gear fa-icon"></i>
+                            <p>تعديل الحساب</p>
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </a>
+
+                        <a href="#" class="sub-menu-link">
+                            <i class="fa-solid fa-door-open fa-icon"></i>
+                            <p>تسجيل الخروج</p>
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+            <a href="add_job.html" class="btn">اضافة وظيفه</a>
+        </section>
+    </header>
+
+
+    <!-- End Header -->
+
+    <!-- Start Home Section -->
+
+    <div class="home-container">
+
+        <section class="home">
+
+            <form action="" method="post">
+                <h3>ابحث عن وظيفتك</h3>
+                <p>اسـم الوظيفه <span>*</span></p>
+                <input type="text" name="title" placeholder="كلمه مفتاحيه, فئه أو شركه" required maxlength="20" class="input" />
+                <input type="submit" value="ابحث عن وظيفتك" class="btn" name="search" />
+            </form>
+
+        </section>
+
+    </div>
+
+    <!-- End Home Section -->
+
+
+
+    
+    <!-- Start About Website -->
+
+    <section class="about_website">
+        
+        <h1 class="heading">الخدمات المقدمه من خلال الموقع</h1>
+
+        <div class="box">
+            <p>موقع وظيفه دوت كوم يعمل على نشر الوظائف في مصر ونعمل على تنظيم وتحسين وتسهيل عمليات نشر الوظائف لكي نخدم الباحثين عن عمل والمنشآت الباحثة عن موظفين الأن نحن في مرحلة تجربة الموقع ونعمل على تحسين جميع الخدمات الموجودة في الموقع من محركات البحث وإخفاء الوظائف القديمة وتطوير السير الذاتية للمتقدمين ونتمنى منكم مساعدتنا لفعل ذلك عن طريق إستخدام الموقع وإرسال الإقتراحات والشكاوى عن طريق صفحة تواصل معنا</p>
+        </div>
+
+    </section>
+
+    <!-- End About Website -->
+
+
+
+
+
+    <!-- Start Category Section -->
+
+    <section class="category">
+        <h1 class="heading">أقسام الوظائف</h1>
+        <div class="box-container">
+            <a href="#" class="box">
+                <i class="fas fa-bullhorn"></i>
+                <div>
+                    <h3>تسويق ومبيعات</h3>
+                    <span>950 Jobs</span>
+                </div>
+            </a>
+
+            <a href="#" class="box">
+                <i class="fa-solid fa-wheat-awn"></i>
+                <div>
+                    <h3>صناعه وزراعه</h3>
+                    <span>1012 Jobs</span>
+                </div>
+            </a>
+
+            <a href="#" class="box">
+                <i class="fa-sharp fa-solid fa-archway"></i>
+                <div>
+                    <h3>عماره وهندسه</h3>
+                    <span>500 Jobs</span>
+                </div>
+            </a>
+
+            <a href="#" class="box">
+                <i class="fa-solid fa-scale-balanced"></i>
+                <div>
+                    <h3>ماليه وقانونيه</h3>
+                    <span>1150 Jobs</span>
+                </div>
+            </a>
+
+            <a href="#" class="box">
+                <i class="fa-solid fa-car"></i>
+                <div>
+                    <h3>قياده وتوصيل</h3>
+                    <span>3000 Jobs</span>
+                </div>
+            </a>
+
+            <a href="#" class="box">
+                <i class="fas fa-code"></i>
+                <div>
+                    <h3>أعمال اداريه</h3>
+                    <span>800 Jobs</span>
+                </div>
+            </a>
+
+            <a href="#" class="box">
+                <i class="fa-solid fa-hotel"></i>
+                <div>
+                    <h3>سياحه وضيافه</h3>
+                    <span>900 Jobs</span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- End Category Section -->
+
+
+    <!-- Start Jobs Section -->
+
+    <section class="jobs-container">
+
+        <h1 class="heading">أخر الوظايف</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="company">
+                    <img src="./images/electric.jpg" alt="">
+                    <div>
+                        <h3>شركة أوراسكوم</h3>
+                        <p>منذ 4 ساعات</p>
+                    </div>
+                </div>
+                <h3 class="job-title">مهندس موقع كهرباء</h3>
+                <span class="location"><i class="fas fa-map-marker-alt"></i> </span>
+                <span>القاهره , العاصمه الاداريه</span>
+                <div class="tags">
+                    <p>جنيه <span>5k - 8k</span> </p>
+                </div>
+                <div class="flex-btn">
+                    <a href="view-job.html" class="btn">تفاصيل أكثر</a>
+                    <button type="submit" class="far fa-heart" name="save"></button>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="company">
+                    <img src="./images/engineer.jpg" alt="">
+                    <div>
+                        <h3>شركة أوراسكوم</h3>
+                        <p>منذ 10 ساعات</p>
+                    </div>
+                </div>
+                <h3 class="job-title">مهندس موقع مدني</h3>
+                <span class="location"><i class="fas fa-map-marker-alt"></i> </span>
+                <span>القاهره , العاصمه الاداريه</span>
+                <div class="tags">
+                    <p>جنيه <span>6k - 10k</span> </p>
+                </div>
+                <div class="flex-btn">
+                    <a href="view-job.html" class="btn">تفاصيل أكثر</a>
+                    <button type="submit" class="far fa-heart" name="save"></button>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="company">
+                    <img src="./images/development.jpg" alt="">
+                    <div>
+                        <h3>شركة ماك اكسيل</h3>
+                        <p>منذ 2 ساعات</p>
+                    </div>
+                </div>
+                <h3 class="job-title">مطور مواقع</h3>
+                <span class="location"><i class="fas fa-map-marker-alt"></i> </span>
+                <span>القاهره , الدقي</span>
+                <div class="tags">
+                    <p>جنيه <span>4k - 9k</span> </p>
+                </div>
+                <div class="flex-btn">
+                    <a href="view-job.html" class="btn">تفاصيل أكثر</a>
+                    <button type="submit" class="far fa-heart" name="save"></button>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div style="text-align: center; margin-top: 2rem;">
+            <a href="jobs.html" class="btn">جميع الوظائف</a>
+        </div>
+
+    </section>
+
+    <!-- End Jobs Section -->
+
+
+
+
+
+
+
+    <!-- Start Footer -->
+
+    <footer class="footer">
+        
+        <section class="grid">
+            <div class="box">
+                <h3>روابط سريعه</h3>
+                <a href="index.html"><i class="fas fa-angle-left"></i> الرئيسيه</a>
+                <a href="jobs.html"><i class="fas fa-angle-left"></i> وظائف</a>
+                <a href="about.html"><i class="fas fa-angle-left"></i> من نحن</a>
+                <a href="contact.html"><i class="fas fa-angle-left"></i> تواصل معنا</a>
+            </div>
+            <div class="box">
+                <h3>روابط أخري</h3>
+                <a href="login.html"><i class="fas fa-angle-left"></i> تسجيل الدخول</a>
+                <a href="comp_registration.html"><i class="fas fa-angle-left"></i> التسجيل كشركه</a>
+                <a href="emp_registration.html"><i class="fas fa-angle-left"></i> التسجيل كموظف</a>
+            </div>
+            <div class="box">
+                <h3>تابعنا علي</h3>
+                <a href="#"><i class="fab fa-facebook-f"></i> فيس بوك</a>
+                <a href="#"><i class="fab fa-twitter"></i> تويتر</a>
+                <a href="#"><i class="fab fa-instagram"></i> انستجرام</a>
+                <a href="#"><i class="fab fa-youtube"></i> يوتيوب</a>
+            </div>
+
+        </section>
+
+    </footer>
+
+    <!-- End Footer -->
+
+
+    <!-- Js File Link -->
+    <script src="js/index.js"></script>
+</body>
+</html>

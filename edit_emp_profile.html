@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تعديل الملف الشخصي</title>
+    <!-- Css File Link -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    
+    <!-- Start Header -->
+
+    <header class="header">
+        <section class="navigation">
+            <a href="index.html" class="logo noHover"><i class="fa-brands fa-usps"></i>وظيفه دوت كوم</a>
+            <div id="menu-btn" class="fas fa-bars-staggered"></div>
+            <nav class="navbar">
+                <a href="index.html">الرئيسيه</a>
+                <a href="jobs.html">وظائف</a>
+                <a href="about.html">من نحن</a>
+                <a href="contact.html">تواصل معنا</a>
+                <a href="login.html">تسجيل الدخول</a>
+
+
+            </nav>
+
+            <span class="user-pic"><img src="images/profile-icon.jpg" onclick="menuToggle()" alt=""></span>
+
+                <div class="sub-menu-wrap" id="subMenu">
+                    <div class="sub-menu">
+                        <div class="user-info">
+                            <img src="images/profile-icon.jpg" alt="" />
+                            <h3>اسم المستخدم</h3>
+                        </div>
+                        <hr />
+
+                        <a href="employee_profile.html" class="sub-menu-link">
+                            <i class="fa-solid fa-address-card fa-icon"></i>
+                            <p>حسابي</p>
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </a>
+
+                        <a href="edit_emp_profile.html" class="sub-menu-link">
+                            <i class="fa-solid fa-gear fa-icon"></i>
+                            <p>تعديل الحساب</p>
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </a>
+
+                        <a href="#" class="sub-menu-link">
+                            <i class="fa-solid fa-door-open fa-icon"></i>
+                            <p>تسجيل الخروج</p>
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+            <a href="add_job.html" class="btn">اضافة وظيفه</a>
+        </section>
+    </header>
+
+
+    <!-- End Header -->
+
+
+    <!-- Start Login Section -->
+
+    <div class="account-form-container">
+        <section class="account-form">
+
+            <form action="" method="post">
+                <h3>تعديل الملف الشخصي</h3>
+                <input type="file" class="input" />
+                <input type="text" name="name" maxlength="35" placeholder="الاسم كاملا" class="input" />
+                <input type="text" name="address" maxlength="35" placeholder="العنوان" class="input" />
+                <input type="email" required name="email" maxlength="50" placeholder="البريد الالكتروني" class="input" />
+                <input type="number" required name="phone_number" maxlength="11" placeholder="رقم الهاتف" class="input" />
+
+                <div class="tags-input-wrapper">
+                    <h2>المهارات</h2>
+                    <input type="text" id="tag-input1" class="input" />
+                </div>
+                <h2>الخبره</h2>
+                <input type="text" name="company_name" maxlength="25" placeholder="اسم الشركه او الكورس" class="input">
+                
+                <span>تاريخ البدء<input type="date" class="input" /></span>
+                <span>تاريخ الانتهاء<input type="date" class="input" /></span>
+                
+                
+                <input type="submit" value="تعديل" name="submit" class="btn" />
+            </form>
+    
+        </section>
+    </div>
+
+    <!-- End Login Section -->
+
+
+
+
+
+
+    <!-- Start Footer -->
+
+    <footer class="footer">
+        
+        <section class="grid">
+            <div class="box">
+                <h3>روابط سريعه</h3>
+                <a href="index.html"><i class="fas fa-angle-left"></i> الرئيسيه</a>
+                <a href="jobs.html"><i class="fas fa-angle-left"></i> وظائف</a>
+                <a href="about.html"><i class="fas fa-angle-left"></i> من نحن</a>
+                <a href="contact.html"><i class="fas fa-angle-left"></i> تواصل معنا</a>
+            </div>
+            <div class="box">
+                <h3>روابط أخري</h3>
+                <a href="login.html"><i class="fas fa-angle-left"></i> تسجيل الدخول</a>
+                <a href="comp_registration.html"><i class="fas fa-angle-left"></i> التسجيل كشركه</a>
+                <a href="emp_registration.html"><i class="fas fa-angle-left"></i> التسجيل كموظف</a>
+            </div>
+            <div class="box">
+                <h3>تابعنا علي</h3>
+                <a href="#"><i class="fab fa-facebook-f"></i> فيس بوك</a>
+                <a href="#"><i class="fab fa-twitter"></i> تويتر</a>
+                <a href="#"><i class="fab fa-instagram"></i> انستجرام</a>
+                <a href="#"><i class="fab fa-youtube"></i> يوتيوب</a>
+            </div>
+
+        </section>
+
+    </footer>
+
+    <!-- End Footer -->
+
+
+    <!-- Js File Link -->
+    <script src="js/index.js"></script>
+</body>
+</html>
